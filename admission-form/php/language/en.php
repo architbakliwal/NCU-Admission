@@ -8,10 +8,10 @@
 
 	// Site Configuration
     	
-    $lang['website_title']		                        = 'THE NORTHCAP UNIVERSITY – APPLICATION FORM FOR BATCH STARTING IN '.$year; 
+    $lang['website_title']		                        = 'The Center for Leadership, PGDM – APPLICATION FORM FOR BATCH STARTING IN '.$year; 
     $lang['website_author']		                        = ''.$company.' - Admissions Team'; 
-	$lang['website_description']		                = 'THE NORTHCAP UNIVERSITY – APPLICATION FORM FOR BATCH STARTING IN '.$year;
-	$lang['website_keywords']		                    = 'THE NORTHCAP UNIVERSITY – APPLICATION FORM FOR BATCH STARTING IN '.$year;
+	$lang['website_description']		                = 'The Center for Leadership, PGDM – APPLICATION FORM FOR BATCH STARTING IN '.$year;
+	$lang['website_keywords']		                    = 'The Center for Leadership, PGDM – APPLICATION FORM FOR BATCH STARTING IN '.$year;
 	
 	// Activation processor
 	
@@ -43,7 +43,7 @@
 	
 	// Dashboard Form
 	
-	$lang['dashboard_title']		                    = 'THE NORTHCAP UNIVERSITY – APPLICATION FORM FOR BATCH STARTING IN '.$year;
+	$lang['dashboard_title']		                    = 'The Center for Leadership, PGDM – APPLICATION FORM FOR BATCH STARTING IN '.$year;
 	$lang['application_id']		                    	= 'Application ID: ';
 	$lang['dashboard_subtitle_password']		        = 'Update your Password';
 	$lang['dashboard_subtitle_email']		            = 'Update your Email';
@@ -144,7 +144,7 @@
 	
     // Index page
 	 
-    $lang['index_title']		                        = 'THE NORTHCAP UNIVERSITY</br></br>Online Application Form '.$year; 
+    $lang['index_title']		                        = 'The Center for Leadership, PGDM</br></br>Online Application Form '.$year; 
 	$lang['index_register_your_account']		        = 'Register'; 
 	$lang['index_login_your_account']		            = 'Login'; 
 	$lang['index_forgot_your_password']		            = 'Forgot your Password';	

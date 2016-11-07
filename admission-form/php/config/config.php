@@ -17,17 +17,18 @@
 	    $database_Connection = "ncu_admission_2017";
 	    $username_Connection = "root";
 	    $password_Connection = "ncuindia@!sge";
-	    $physicalpath = "/var/www/html/ncuindia.edu/";
+	    // $physicalpath = "/var/www/html/ncuindia.edu/";
+	    $physicalpath = "/var/www/html/ncuindia.edu/centerforleadership/";
 
 	    // Enter your URL here without http:// only domain!
 		$url = 'ncuindia.edu';
 		
 		if ($_SERVER['SERVER_NAME'] == $url) {
 		    // Enter your BASEURL here without WWW!
-			$baseurl = 'http://ncuindia.edu/admission-form/';
+			$baseurl = 'http://ncuindia.edu/centerforleadership/admission-form/';
 		} else {
 		    // Enter your BASEURL here with WWW!
-			$baseurl = 'http://www.ncuindia.edu/admission-form/';
+		    $baseurl = 'http://www.ncuindia.edu/centerforleadership/admission-form/';
 		}
 	}
 
@@ -36,7 +37,7 @@
 	// error_reporting(E_ALL & ~E_NOTICE);
 
 	// Enter your Name here!
-    $yourname = 'NCU Admission';
+    $yourname = 'The Center for Leadership, The NorthCap University Admission';
 
     // Enter your Email here!
     $youremail = 'admission.pgdm@ncuindia.edu';
@@ -66,7 +67,7 @@
 	$website = 'http://www.ncuindia.edu/';
 
 	// Enter Company here!
-	$company = 'The NorthCap University';
+	$company = 'The Center for Leadership, The NorthCap University';
 	
 	// Enter Next Year here!
 	$year = date("Y") + 1;

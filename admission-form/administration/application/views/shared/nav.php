@@ -3,7 +3,7 @@
 	if($_SERVER['SERVER_ADDR'] == '127.0.0.1') {
 	    $baseurl = 'http://127.0.0.1/NCUAdmission/';
 	} else {
-	    $baseurl = 'http://ncuindia.edu/admission-form/';
+	    $baseurl = 'http://ncuindia.edu/centerforleadership/admission-form/';
 	}
 ?>
 <nav class="navbar navbar-default navbar-embossed navbar-fixed-top" role="navigation" id="topNav">
